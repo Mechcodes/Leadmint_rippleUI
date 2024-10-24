@@ -28,7 +28,8 @@ const RegistrationReferralsChart = ({ data }) => {
   };
 
   const options = {
-    responsive: true,
+    responsive: true,  
+    maintainAspectRatio: false,  
     plugins: {
       legend: {
         position: 'top',
@@ -45,7 +46,11 @@ const RegistrationReferralsChart = ({ data }) => {
     },
   };
 
-  return <Line data={chartData} options={options} />;
+  return (
+    <div className="w-full h-[300px] md:h-[400px] lg:h-[500px]">
+      <Line data={chartData} options={options} />
+    </div>
+  );
 };
 
 export default RegistrationReferralsChart;
