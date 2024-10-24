@@ -10,7 +10,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Mobile Sidebar Button */}
+
       <div className="sm:block md:hidden p-4 z-50">
         <button
           onClick={toggleSidebar}
@@ -33,7 +33,7 @@ const Sidebar = () => {
         </button>
       </div>
 
-      {/* Sidebar */}
+
       {isSidebarOpen && (
         <div
           className="fixed h-screen inset-0 bg-gray-200 bg-opacity-75 z-40"
@@ -132,7 +132,6 @@ const Sidebar = () => {
               </Link>
             </div>
 
-            {/* Avatar Section at the bottom */}
             <div className="flex items-center justify-between w-full pt-4 border-t border-gray-600">
               <span className="mr-5 text-lg font-bold text-black flex">
                 Rajat Bora
@@ -158,7 +157,7 @@ const Sidebar = () => {
         </div>
       )}
 
-      {/* Sidebar for larger screens */}
+
       <div className="hidden relative rounded-lg ml-0 m-3 md:block w-64 h-auto bg-gray-200 border-r border-gray-200 p-5 flex-col justify-between ">
         <div>
           <Link to="/home">

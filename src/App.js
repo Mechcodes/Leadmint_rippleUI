@@ -8,7 +8,7 @@ import Notification from "./pages/Notifications.jsx";
 import Users from "./pages/Users.jsx";
 import Transactions from "./pages/Tansactions.jsx";
 
-// Layout component with Sidebar
+
 const LayoutWithSidebar = ({ children }) => (
   <div className="flex flex-row min-h-screen bg-gray-50">
     <Sidebar />
@@ -20,10 +20,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        {/* Redirect from root to home */}
+
         <Route path="/" element={<Navigate to="/home" />} />
 
-        {/* Routes with Sidebar */}
+
         <Route
           path="/home"
           element={
@@ -68,7 +68,7 @@ function App() {
           }
         />
 
-        {/* Routes without Sidebar */}
+
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

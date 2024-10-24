@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-gray-50 px-4 py-6">
-      {/* Header Section */}
+
       <header className="bg-blue-200 text-gray-900 p-8 rounded-lg shadow-md text-center">
         <h1 className="text-3xl md:text-5xl font-bold">Welcome to AppZest</h1>
         <p className="mt-4 text-lg md:text-xl">Your go-to platform for amazing content.</p>
       </header>
 
-      {/* Main Section */}
+
       <section className="flex-1 text-center text-black mt-10">
         <h2 className="text-2xl md:text-4xl text-black font-semibold mb-6">Explore Our Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -26,7 +26,7 @@ const HomePage = () => {
             <p className="text-gray-600">Stay updated with the latest trends and developments.</p>
           </div>
         </div>
-        {/* Main Section */}
+
       <section className="flex-1 flex flex-col justify-center items-center mt-10 md:mt-20 text-center">
         
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
@@ -44,7 +44,7 @@ const HomePage = () => {
       </section>
       </section>
 
-      {/* Footer Section */}
+
       <footer className="bg-blue-100 text-gray-700 text-center py-4 rounded-lg shadow-inner mt-10">
         <p>&copy; 2024 AppZest. All rights reserved.</p>
       </footer>

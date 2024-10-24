@@ -1,5 +1,4 @@
 import React from "react";
-// import Sidebar from "./SideBar.jsx";
 import HomePage from "./HomePage.jsx";
 
 const Home = () => {

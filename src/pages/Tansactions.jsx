@@ -1,6 +1,6 @@
 import React from "react";
 
-// Sample transaction data
+
 const transactions = [
   {
     id: 1,
@@ -8,7 +8,7 @@ const transactions = [
     amount: "$150.00",
     type: "Deposit",
     status: "Completed",
-    color: "bg-green-200", // Light green
+    color: "bg-green-200", 
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const transactions = [
     amount: "$75.00",
     type: "Withdrawal",
     status: "Pending",
-    color: "bg-yellow-200", // Light yellow
+    color: "bg-yellow-200", 
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const transactions = [
     amount: "$200.00",
     type: "Deposit",
     status: "Completed",
-    color: "bg-blue-200", // Light blue
+    color: "bg-blue-200", 
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const transactions = [
     amount: "$50.00",
     type: "Withdrawal",
     status: "Failed",
-    color: "bg-red-200", // Light red
+    color: "bg-red-200",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const transactions = [
     amount: "$120.00",
     type: "Deposit",
     status: "Completed",
-    color: "bg-green-200", // Light green
+    color: "bg-green-200", 
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const transactions = [
     amount: "$350.00",
     type: "Deposit",
     status: "Completed",
-    color: "bg-green-200", // Light green
+    color: "bg-green-200", 
   }
 ];
 

@@ -1,8 +1,8 @@
 import React from "react";
 
 const Notification = () => {
-  // Sample notifications data
-  const notifications = [
+
+    const notifications = [
     {
       id: 1,
       title: "New Message from Captain America",
